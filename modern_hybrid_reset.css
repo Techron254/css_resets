@@ -4,7 +4,11 @@
 Document
 ========
 */
-
+/* Optimum responsive line height- added by me;
+ */
+*{
+    line-height: clamp(1.3em, calc(1em + 1vh), 1.6em);
+}
 /**
 Use a better box model (opinionated).
 */
@@ -247,3 +251,4 @@ img {
   max-inline-size: 100%;
 
 }
+
