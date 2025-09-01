@@ -250,7 +250,8 @@ img {
 /* Optimum responsive line height- added by me;
  */
 *{
-    line-height: clamp(1.3em, calc(1em + 1vh), 1.6em);
+    line-height: clamp(1.3em, calc(1em + 2vh), 1.6em);
 }
+
 
 
